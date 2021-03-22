@@ -1,0 +1,182 @@
+body {
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: 'Abhaya Libre', serif;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  border: solid 1px;
+  border-color: #008891;
+}
+
+.navbar-light {
+  background-color: #008891;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-family: 'Abhaya', serif;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 1.5rem;
+}
+
+/* Title */
+
+#title {
+  padding-left: 50px;
+  text-align: left;
+  background-color: #5eaaa8;
+  color: white;
+  position: relative;
+}
+
+.title-text-content {
+  position: relative;
+  top: 50px;
+}
+
+#title h1 {
+  font-size: 7.2rem;
+  position: relative;
+}
+
+#title h2 {
+  font-size: 2.5rem;
+}
+
+.venice-image {
+  width: 775px;
+}
+
+.white-box {
+  width: 650px;
+  height: 400px;
+  border: 10px solid;
+  position: absolute;
+  right: 50px;
+  top: 50px;
+}
+
+.sign-up-button {
+  background-color: #eb5e0b;
+  color: white;
+  width: 20%;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+/* Features */
+
+#features {
+  margin-bottom: 100px;
+}
+
+@media (max-width: 1024px) {
+  #features {
+    text-align: left;
+    position: static;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .feature-content {
+    position: relative !important;
+    left: 0 !important;
+  }
+
+  .feature-image {
+    display: none;
+  }
+
+  .white-box {
+    display: none;
+  }
+
+  body {
+    overflow-x: visible;
+  }
+}
+
+.feature-content {
+  position: relative;
+  left: 250px;
+}
+
+.feature-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  position: relative;
+  right: 165px;
+  top: 120px;
+}
+
+.feature-header {
+  font-size: 5rem;
+}
+
+.feature-paragraph {
+  font-size: 2rem;
+}
+
+.water-icon {
+  color: powderblue;
+}
+
+.monument-icon {
+  color: grey;
+}
+
+.pizza-icon {
+  color: orange;
+}
+
+/* Sign Up */
+
+#sign-up {
+  background-color: #5eaaa8;
+  text-align: center;
+  padding: 100px;
+}
+
+.sign-up-section-button {
+  background-color: #eb5e0b;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-size: 2rem;
+  margin-top: 25px;
+  width: 50%;
+}
+
+#sign-up h1 {
+  font-size: 3rem;
+}
+
+#sign-up h2 {
+  font-family: Montserrat, sans-serif;
+}
+
+/* Footer */
+
+#footer {
+  text-align: center;
+  padding: 50px;
+}
+
+.footer-icons {
+  font-size: 2rem;
+}
